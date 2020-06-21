@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  {{> head }}
+    {{> header }}
+    <br/>
+    <br/>
+    <div class="container">
+  <div class="row">
+    <div class="col">
+      <h2>Make backup</h2><br/>
+      <a href="/backup" class="btn btn-outline-danger btn-lg btn-block">Backup</a>
+    </div>
+    <div class="col">
+       
+    </div>
+    <div class="col">
+     <h2>Make restore</h2><br/>
+      <a href="/restore" class="btn btn-outline-primary btn-lg btn-block">Restore</a>
+    </div>
+  </div>
+</div>
+    {{> footer }}
+  </body>
+</html>
